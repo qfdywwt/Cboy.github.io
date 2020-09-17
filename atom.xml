@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qfdywwt.github.io/cboy.github.io/</id>
     <title>Cboyの笔记</title>
-    <updated>2020-09-17T12:07:19.219Z</updated>
+    <updated>2020-09-17T12:08:40.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qfdywwt.github.io/cboy.github.io/"/>
     <link rel="self" href="https://qfdywwt.github.io/cboy.github.io/atom.xml"/>
@@ -12,11 +12,11 @@
     <rights>All rights reserved 2020, Cboyの笔记</rights>
     <entry>
         <title type="html"><![CDATA[PHP基础-输出与变量]]></title>
-        <id>https://qfdywwt.github.io/cboy.github.io/post/php-ji-chu-shu-chu-yu-bian-liang/</id>
-        <link href="https://qfdywwt.github.io/cboy.github.io/post/php-ji-chu-shu-chu-yu-bian-liang/">
+        <id>https://qfdywwt.github.io/cboy.github.io/post/php-jichu1/</id>
+        <link href="https://qfdywwt.github.io/cboy.github.io/post/php-jichu1/">
         </link>
         <updated>2020-09-17T11:50:44.000Z</updated>
-        <content type="html"><![CDATA[<p>基础.</p>
+        <content type="html"><![CDATA[<p>基础</p>
 ]]></content>
     </entry>
     <entry>
