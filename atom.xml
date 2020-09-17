@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qfdywwt.github.io/cboy.github.io/</id>
     <title>Cboyの笔记</title>
-    <updated>2020-09-17T12:08:40.703Z</updated>
+    <updated>2020-09-17T12:10:00.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qfdywwt.github.io/cboy.github.io/"/>
     <link rel="self" href="https://qfdywwt.github.io/cboy.github.io/atom.xml"/>
@@ -17,7 +17,140 @@
         </link>
         <updated>2020-09-17T11:50:44.000Z</updated>
         <content type="html"><![CDATA[<p>基础</p>
-]]></content>
+<!-- wp:heading {"level":3} -->
+<h3>基础</h3>
+<!-- /wp:heading -->
+<!-- wp:heading {"level":4} -->
+<h4>php标记与注释</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php标记与注释演示
+*作者:Cboy
+*时间:2020.8.18 12:08
+*/
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":4} -->
+<h4>php语句输出与语法结束符</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:我的第一行php代码
+*作者:Cboy
+*时间:2020.8.18 12:15
+*/
+
+//输出"你好 编码男孩"   
+echo "hello Cboy";
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":3} -->
+<h3>变量</h3>
+<!-- /wp:heading -->
+<!-- wp:heading {"level":4} -->
+<h4>php变量</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php变量概念与使用实践
+*作者:Cboy
+*时间:2020.8.18 12:21
+*/
+
+//定义变量
+$name = "Cboy";
+//修改变量
+$name = "Cboy1";
+//访问变量
+echo $name;
+//删除变量
+unset($name);
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":4} -->
+<h4>可变变量</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php可变变量实践
+*作者:Cboy
+*时间:2020.8.18 14:18
+*/
+
+//定义变量
+$a = b;
+$b = bb;
+//"$$a"输出结果为"bb"
+echo $$a;
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":4} -->
+<h4>变量传值-值传递</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php值传递
+*作者:Cboy
+*时间:2020.8.18 14:33
+*/
+
+//定义变量
+$a = 1;
+$b = $a;
+//输出结果为1
+echo $b;
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":4} -->
+<h4>变量传值-引用传递</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php引用传递
+*作者:Cboy
+*时间:2020.8.18 14:47
+*/
+
+//定义变量
+$a = 1;
+$b = $a;
+//输出结果为1 推荐使用此方法
+echo &amp;$b;
+?></code></pre>
+<!-- /wp:code -->
+<!-- wp:heading {"level":3} -->
+<h3>常量</h3>
+<!-- /wp:heading -->
+<!-- wp:heading {"level":4} -->
+<h4>常量的定义与使用</h4>
+<!-- /wp:heading -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?php 
+/*
+*功能:php常量的定义与使用
+*作者:Cboy
+*时间:2020.8.18 15:12
+*/
+
+//使用函数定义常量"define"
+define('PI',3.14);
+//使用"const"关键字定义
+const PII = 3;
+//定义特殊常量，只能使用"define"
+define('→_→',5);
+//使用常量
+echo PI;
+//使用特殊常量
+echo constant('→_→');
+?></code></pre>
+<!-- /wp:code -->]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
